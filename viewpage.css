@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    background-color: #58A0FF;
+    display: grid;
+    justify-content: center;
+    color: white;
+    padding: 2px;
+}
+.img-sectin{
+    display: flex;
+    gap: 0;
+}
+.img-sectin .img-one{
+    width: 28%;
+    height: 165px;
+    overflow: hidden;
+}
+.img-two{
+    width: 72%;
+    height: 165px;
+    overflow: hidden;
+}
+.img-two img{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-sectin{
+    width: 100%;
+    height: 165px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    height: 885px;
+}
+.aside-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-title{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.div-box-two h1{
+    font-size: 22px;
+    padding: 10px;
+
+}
+.non-bg{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(122, 122, 122);
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.div-box-two a{
+    text-decoration: none;
+    color: #58A0FF;
+    
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.non-bg{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(122, 122, 122);
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.div-box-two h4{
+    margin-top: 25px;
+    margin-left: 5px;
+    color: gray;
+}
+.span-taq{
+    font-size: 15px;
+    color: gray;
+}
+.tims{
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.w-o-bg{
+    margin: 5px;
+}
+.aside-div div{
+    margin-top: 25px;
+}
+.btn{
+    padding: 5px;
+    background-color: #303134;
+    color: white;
+    margin-right: 15px;
+    margin-left: 8px;
+}
+.frooter-img{
+    width: 76px;
+    height: auto;
+    margin-left: 5px;
+}
+.img-sctor-frooter{
+    display: flex;
+}

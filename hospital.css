@@ -1,0 +1,81 @@
+@media screen and (max-width:600px)  {
+    body{
+        background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2380F'/%3E%3Cstop offset='1' stop-color='%23f40'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
+background-attachment: fixed;
+    }
+    
+    
+}
+a{
+    color: black;
+}
+.maps-section{
+    margin-top: 2px;
+}
+.maps-section iframe{
+    width: 100%;
+    height: 250px;
+}
+.our-khaligonj button{
+    padding: 10px;
+    background-color: #303134;
+    color: white;
+    margin-right: 15px;
+    margin-left: -17px;
+}
+.btn{
+    padding: 5px;
+    background-color: #303134;
+    color: white;
+    margin-right: 15px;
+    margin-left: 8px;
+}
+.our-khaligonj h6{
+    position: relative;
+    top: 12px;
+    left: -4px;
+}
+.hospital-one{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    display: flex;
+    gap: 10px;
+    margin-top: 2px;
+    overflow: scroll;
+}
+.map-box{
+    width: 150px;
+    height: 120px;
+}
+.hospital-img{
+    width: 150px;
+    height: 120px;
+}
+.caption-box{
+    
+}
+.location-icon{
+    width: 20;
+    color: #ffffff;
+}
+.address-bar{
+    display: flex;
+    gap: 10px;
+    color: black;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.address-bar div>a{
+    color: black;
+}
+
+.caption-box div>h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2px;
+    font-size: 18PX;
+}
+.times-caption{
+    color: green;
+}
